@@ -1,0 +1,60 @@
+.panelHome {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.panelLeft {
+    flex: 1;
+    height: calc(100vh - 200px);
+    background-color: rgba(221, 202, 221, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.containerTable{
+    display: flex;
+    overflow-y: scroll;
+    margin-top: 10px;
+    max-height: calc(100vh - 300px);
+}
+
+.paneRight {
+    flex: 2;
+    background-color: rgba(221, 202, 221, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cartTitle{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.panelLeftRow{
+    margin-bottom: 40px;
+}
+
+.panelLeftRowTitle{
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.panelLeftRowContent{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    background-color: rgba(167, 165, 167, 0.1);
+    box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+        0px 14px 6px -1px rgba(128,128,128,1); /* shadow */
+    
+}

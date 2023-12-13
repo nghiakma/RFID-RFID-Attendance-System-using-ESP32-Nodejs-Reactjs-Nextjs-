@@ -1,0 +1,45 @@
+.containerTabInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contentTabInfo {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.containerLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.containerLogo>img {
+    background-color: #fff;
+    border-radius: 135px;
+}
+
+.containerLogo>h1 {
+    margin-left: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.containerTabInfo > h1{
+    text-align: center;
+}
+
+.des{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.des > h3 {
+    margin-top: 10px ;
+}
