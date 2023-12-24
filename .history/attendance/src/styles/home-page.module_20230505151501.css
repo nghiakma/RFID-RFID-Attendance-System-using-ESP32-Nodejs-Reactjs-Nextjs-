@@ -1,0 +1,43 @@
+.myContainer{
+    background-color: rgb(65, 17, 80);
+    height: 100vh;
+    color: white;
+}
+
+.header{
+    height: 120px;
+    background-image: linear-gradient(0deg, rgba(43,9,53,1) 0%, rgba(69,3,88,1) 52%, rgba(43,9,53,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerTitle{
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.containerLogo{
+    width: 223px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-color: white;
+}
+
+.tabMenu{
+    background-color: rgb(43, 9, 53);
+    height: calc(100vh - 120px);
+    width: 200px;
+}
+
+.myNavLink{
+    padding: 20px 10px 20px 10px;
+}
